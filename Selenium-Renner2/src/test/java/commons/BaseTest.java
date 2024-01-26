@@ -30,6 +30,7 @@ public class BaseTest {
     }
 
 
+    @After
     public void fecharNavegador(){
         driver.quit();
     }
